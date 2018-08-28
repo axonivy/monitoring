@@ -1,0 +1,6 @@
+groups:
+- name: InstanceDownGroup
+  rules:
+  - alert: InstanceDown
+    expr: mysql_up == 0
+    for: 5s

@@ -2243,7 +2243,7 @@
       "thresholds": [],
       "timeFrom": "5m",
       "timeShift": null,
-      "title": "Panel Title",
+      "title": "CPU Usage",
       "tooltip": {
         "shared": true,
         "sort": 0,

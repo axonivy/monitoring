@@ -40,6 +40,7 @@ services:
      - "./demo-licence.lic:/opt/ivy/configuration/demo-licence.lic"
      - "./ivy.yaml:/opt/ivy/configuration/ivy.yaml"
      - "./AxonIvyEngine.conf:/opt/ivy/bin/AxonIvyEngine.conf"
+     - "./deploy:/opt/ivy/deploy"
     depends_on:
      - mysql
 

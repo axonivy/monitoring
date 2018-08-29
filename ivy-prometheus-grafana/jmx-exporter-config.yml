@@ -1,0 +1,4 @@
+hostPort: ivy:9003
+username: admin
+password: admin
+ssl: false

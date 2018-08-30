@@ -1,15 +1,8 @@
 route:
- group_by: [cluster]
- # If an alert isn't caught by a route, send it slack.
- receiver: slack_general
- routes:
-  # Send severity=slack alerts to slack.
-  - match:
-      severity: slack
-    receiver: slack_general
+ receiver: slack
 
 receivers:
-- name: slack_general
+- name: slack
   slack_configs:
-  - api_url: $WEBHOOK_URL
-    channel: '#general'
+  - api_url: 'https://hooks.slack.com/services/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'
+    send_resolved: true
